@@ -2,7 +2,7 @@
   font-family: Montserrat, sans-serif;
   box-sizing: border-box;
 }
-body{
+body {
   margin: 0px;
 }
 .header {
@@ -19,8 +19,8 @@ body{
 
   justify-content: center;
   padding: 13px;
-  
-    gap: 20px;
+
+  gap: 20px;
 }
 .logo_sec h6 {
   font-size: 14px;
@@ -33,10 +33,12 @@ body{
   size: 24px;
   color: #252b42;
   margin: 0;
+  max-width: 180px;
 }
 
 .nav-links .link {
   list-style: none;
+  max-width: 100px;
 }
 .nav-links .link a {
   text-decoration: none;
@@ -68,19 +70,19 @@ body{
 }
 .hero_sec {
   display: flex;
-  
+
   align-items: center;
   justify-content: space-evenly;
 }
 
 .image-section {
-  width:100%;
+  width: 100%;
 }
 
 .sec_color {
   background-color: azure;
 }
-.footer-links{
+.footer-links {
   color: gray;
   font-size: 14px;
   font-weight: 700;
@@ -127,15 +129,14 @@ ul {
   font-size: 14px;
   color: #8d5cf6;
 }
-.font-400{
+.font-400 {
   font-weight: 700;
 }
 .nav {
-  
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px; 
+  gap: 60px;
 }
 .menu-bar {
   width: 705px;
@@ -194,11 +195,10 @@ ul {
   color: blue;
 }
 .menubar {
- 
   width: 815px;
   display: flex;
   justify-content: space-between;
-  
+  padding: 5px 10px 0px 40px;
 }
 
 .first-row {
@@ -207,17 +207,14 @@ ul {
   margin: 0px;
   padding: 0px 20px;
   gap: 15px;
- 
 }
-.content-box{
+.content-box {
   display: flex;
   flex-direction: column;
   margin: 0px;
   padding: 0px 20px;
   gap: 15px;
 }
-
-
 
 .sec {
   display: flex;
@@ -227,23 +224,20 @@ ul {
 }
 
 .first-row h1 {
- 
   color: #252b42;
   margin: 0px;
   font-size: 58px;
   font-weight: 700;
   margin: 0px;
 
-
-line-height: 80px;
-letter-spacing: 0.20000000298023224px;
-
-
+  line-height: 80px;
+  letter-spacing: 0.20000000298023224px;
 }
 .first-row h2 {
- margin: 0px;
+  margin: 0px;
+  max-width: 250px;
 }
-.first-row h4{
+.first-row h4 {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -255,8 +249,6 @@ letter-spacing: 0.20000000298023224px;
 }
 
 .content-box h4 {
-
-  
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -265,33 +257,29 @@ letter-spacing: 0.20000000298023224px;
   color: gray;
   margin: 0px;
   max-width: 285px;
-   
-  
-  }
-  .first-row h5{
-    color: #8d5cf6;
+}
+.first-row h5 {
+  color: #8d5cf6;
   font-size: 14px;
   font-weight: 700;
   margin: 0px;
-  }
-   .start-vedio-sec{
-    width: 84px;
-    position: absolute;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    font-size: 19px;
-    left: 270px;
-    bottom: 140px;
-    height: 84px;
-    left: 209px;
-  }
-  .vedio-image{
-    border-radius: 5px;
-  }
- 
-
-   
+  max-width: 105px;
+}
+.start-vedio-sec {
+  width: 84px;
+  position: absolute;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  left: 270px;
+  bottom: 140px;
+  height: 84px;
+  left: 209px;
+}
+.vedio-image {
+  border-radius: 5px;
+}
 
 .content-box h5 {
   color: #8d5cf6;
@@ -299,23 +287,19 @@ letter-spacing: 0.20000000298023224px;
   font-weight: 700;
   margin: 0px;
 }
-.start-vedio-sec{
+.start-vedio-sec {
   background-color: #8d5cf6;
-
 }
 
-
 .double-btn {
-  height: 45px;
-
   font-size: smaller;
-  font-weight: 600;
+
   border-radius: 5px;
   gap: 15px;
   display: flex;
-  font-weight: 700;
+
   font-size: 14px;
-  /* border: #8d5cf6; */
+  max-width: 300px;
 }
 .double-btn span {
   justify-content: center;
@@ -326,30 +310,30 @@ letter-spacing: 0.20000000298023224px;
   color: aliceblue;
   border: none;
 
-  width: 130px;
- 
+  padding: 11px 20px;
+  gap: 10px;
+  max-width: 150px;
 
   font-weight: 700;
   font-size: 14px;
 
   border-radius: 5px;
   display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .noncolouring-btn {
-  
   width: 130px;
   font-weight: 700;
   font-size: 14px;
   color: #8d5cf6;
- 
+
   background-color: white;
   border-radius: 5px;
   border: 1px solid #8d5cf6;
 }
-.vedios-card{
+.vedios-card {
   position: relative;
 }
 .sub-mid-rows {
@@ -360,27 +344,20 @@ letter-spacing: 0.20000000298023224px;
   justify-content: space-evenly;
   gap: 192px;
 }
-.sub-mid-section{
-  display: flex;
+.sub-mid-section {
+  display: grid;
   flex-direction: row;
-
   align-items: center;
   justify-content: space-evenly;
-  gap: 70px;
+  gap: 53px;
+  padding: 11px 45px 0px 18px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .box {
- 
-
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   box-shadow: 0px 30px 19px 0px #00000012;
   color: #252b42;
   padding: 35px 22px 15px 40px;
-
- 
 }
 .box:hover {
   background: #8d5cf6;
@@ -406,20 +383,19 @@ letter-spacing: 0.20000000298023224px;
 .referance-line h4 {
   line-height: 30px;
 
-  max-width:370px;
-  
+  max-width: 370px;
 }
+
 
 .box-image h5 {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-
   text-align: left;
   color: #737373;
 }
 .box-image h4 {
-  color: #000;
+  max-width: 250px;
 }
 .box-image h4:hover {
   color: white;
@@ -481,7 +457,6 @@ productcards.cards {
   display: flex;
 }
 .sale-div {
- 
   background-color: red;
   top: 20px;
   left: 20px;
@@ -532,15 +507,17 @@ productcards.cards {
 }
 
 .Product-cards {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0px 20px;
 }
 .card-info {
-  padding: 30px;
-  gap: 60px;
-  width: 238px;
+  padding: 20px;
+
+  max-width: 238px;
 }
 .name-rate {
   display: flex;
@@ -550,7 +527,7 @@ productcards.cards {
 }
 .name-rate h4 {
   color: #8d5cf6;
-  width: 142px;
+  max-width: 135px;
   font-size: 14px;
   font-weight: 700;
   text-align: left;
@@ -668,7 +645,7 @@ productcards.cards {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: gray;
 }
 
@@ -713,12 +690,12 @@ productcards.cards {
   margin: 0;
 }
 .boxes-3 p {
-  width: 167px;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.20000000298023224px;
   text-align: center;
+  max-width: 170px;
 }
 .btn-3 {
   width: 235px;
@@ -730,7 +707,10 @@ productcards.cards {
   font-weight: 700;
   font-size: 14px;
   color: aliceblue;
+  display: flex;
+  justify-content: center;
 }
+
 .pricing-features {
   display: flex;
   flex-direction: column;
@@ -738,8 +718,10 @@ productcards.cards {
   gap: 20px;
 
   max-width: 305px;
-
-  font-size: 14px;
+ 
+}
+ .pricing-features:box:hover {
+  color: white;
 }
 
 .checking {
@@ -793,6 +775,8 @@ productcards.cards {
 
   line-height: 20px;
   letter-spacing: 0.2px;
+  max-width: 200px;
+  align-items: center;
 }
 .colour {
   background: #fff2f3;
@@ -818,17 +802,17 @@ productcards.cards {
   border-radius: 61px;
 }
 .expert-about {
-  
   line-height: 20px;
   letter-spacing: 0.20000000298023224px;
   text-align: center;
-  width: 320px;
 }
-.expert-about p{
+.expert-about p {
   margin: 0px;
   font-size: 14px;
   font-weight: 400;
   color: gray;
+  text-align: center;
+  max-width: 280px;
 }
 .expert-review {
   display: flex;
@@ -838,10 +822,11 @@ productcards.cards {
   padding: 0px 0px 60px 0px;
 }
 .name-div {
-  text-align: center;
-
-  padding: 0px 25px 0px 25px;
-  font-weight: 700;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100px;
 }
 .name-div h5 {
   font-size: 16px;
@@ -874,8 +859,12 @@ productcards.cards {
   display: flex;
   text-align: center;
   flex-direction: column;
-
+  gap: 20px;
   align-items: center;
+}
+.join-section h2 {
+  margin: 0px;
+  max-width: 115px;
 }
 .join-section h6 {
   margin: 0px;
@@ -883,6 +872,7 @@ productcards.cards {
 
   font-size: 14px;
   font-weight: 700;
+  max-width: 70px;
 }
 .email-entering {
   display: flex;
@@ -897,6 +887,7 @@ productcards.cards {
   letter-spacing: 0.20000000298023224px;
   max-width: 484px;
   color: #737373;
+  margin: 0px;
 }
 .subscribe-form {
   display: flex;
@@ -907,7 +898,10 @@ productcards.cards {
   border: none;
   outline: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 14px;
+  width: 451px;
+
+  font-weight: 700;
 }
 .subscribe-form button {
   max-width: 101px;
@@ -924,12 +918,7 @@ productcards.cards {
   width: 522px;
   height: 41px;
 }
-.subscribe-form input {
-  width: 451px;
-  height: 42px;
 
-  font-weight: 700;
-}
 .about-section {
   display: flex;
   flex-direction: row;
@@ -959,7 +948,7 @@ productcards.cards {
   gap: 440px;
   color: #737373;
 }
-.footer-section-link-box{
+.footer-section-link-box {
   display: flex;
 
   align-items: center;
@@ -971,9 +960,13 @@ productcards.cards {
 .pricing-features h5 {
   font-weight: 700px;
   font-size: 16px;
+  color: #26335d;
+  
 }
-.pricing-features small {
+.pricing-features {
   font-weight: 700px;
   font-size: 14px;
-  color: #737373;
+  
 }
+
+
